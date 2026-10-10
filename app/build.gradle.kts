@@ -9,7 +9,7 @@ android {
 
   defaultConfig {
     applicationId = "vn.edu.ueh.thanhdnh.firebase_example"
-    minSdk = 29
+    minSdk = 28
     targetSdk = 34
     versionCode = 1
     versionName = "1.0"
@@ -39,6 +39,8 @@ dependencies {
   implementation(libs.activity)
   implementation(libs.constraintlayout)
   implementation(libs.firebase.firestore)
+  implementation(libs.firebase.auth)
+  implementation(libs.glide)
   testImplementation(libs.junit)
   androidTestImplementation(libs.ext.junit)
   androidTestImplementation(libs.espresso.core)
